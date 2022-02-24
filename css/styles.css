@@ -1,0 +1,223 @@
+h1{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+    /* font-size: 5rem; */
+    line-height: 2;
+}
+h2{
+    line-height: 1.5;
+    font-family: initial;
+}
+h3{
+    font-family: "Montserrat-Light";
+}
+p{
+    color: grey;
+}
+
+
+
+
+
+
+/* <!----------------------------------------------- Nav Bar ----------------------------------------------------> */
+
+.right-hoja{
+    float: right;
+}
+.container1{
+    padding: 0 15% 20% 15%;
+    /* margin-bottom: 5%; */
+}
+
+.navbar-brand{
+    /* font-family: sans-serif; */
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5.4rem;
+}
+
+
+
+
+
+
+ /*--------------------------------------- Main Heading --------------------------------- */
+
+.iphone-image{
+    width: 20%;
+    /* float: right; */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    padding-top: 4%;
+}
+#title{
+    background:crimson;
+    color: rgb(255, 255, 255);
+}
+.title-para{
+    font-size: 3.5rem;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+/*----------------------------------- Features section -------------------------------------*/
+
+#features{
+    padding: 10% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;  */
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon-color{
+    color: indianred;
+    padding-bottom: 10%;
+}
+.feature-icon-color:hover{
+    color: rgb(250, 59, 59);
+}
+
+
+
+
+/*--------------------------------------------------------- Testimonial section ----------------------------------------------*/
+
+.testimonial{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: rgb(235, 88, 118);
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    /* padding-bottom: 5%; */
+    margin-bottom: 12%;
+    margin-top: 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+/*------------------------------------------------------------ Company Logo --------------------------------------------------*/
+
+.press-logo{
+    width: 15%;
+    margin: 10px;
+    padding-top: 10%;
+}
+
+
+
+
+/*------------------------------------------------------------- Pricing section ----------------------------------------------*/
+
+#pricing{
+    padding: 100px;
+    background-color: rgb(249, 252, 252);
+}
+.pricing-heading-text{
+    text-align: center;
+    font-weight: bold;
+}
+.card-heading{
+    text-align: center;
+    font-weight: bold;
+}
+.card-footer{
+    text-align: center;
+}
+
+
+
+
+ /*--------------------------------------------- Call to Action ----------------------------------------------------------- */
+
+#cta{
+    text-align: center;
+    background-color: rgb(235, 88, 118);
+    padding: 15% 20%;
+    color: #fff;
+}
+.button-cta{
+    padding-top: 2%;
+}
+.cta-text{
+    font-size: 4rem;
+}
+
+
+/*-------------------------------------------------- Footer section-------------------------------------------------------------- */
+
+#footer{
+    text-align: center;
+    background-color: rgb(107, 70, 77);
+    padding:5% 8%;
+}
+.social-icon{
+    size: 5%;
+    margin: 15px 10px;
+}
+.funny-things-mobile{
+    /* visibility: hidden; */
+    display: none;
+}
+.funny-things-laptop{
+    /* visibility: visible; */
+    display: block;
+}
+
+
+
+
+/*----------------------------------------------------------- Media Query -------------------------------------------*/
+
+@media (max-width:990px) {
+    .iphone-image{
+        position: static;
+        width: 80%;
+        transform: rotate(0);
+        
+    }
+    #title{
+        text-align: center;
+    }
+    .funny-things-laptop{
+        display: none;
+    }
+    .funny-things-mobile{
+        display: block;
+    }
+}
+
+
+
+/* Developer- KESHAV KUMAR
+Email- keshavkumar9431@gmail.com
+For any query DM on Instagram: officialkeshavkumar 
+Github- keshav-the-geek  */
